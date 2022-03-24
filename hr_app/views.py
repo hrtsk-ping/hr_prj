@@ -9,5 +9,8 @@ class AboutView(generic.TemplateView):
 class ContactView(generic.TemplateView):
     template_name = "contact.html"
 
-class PostView(generic.TemplateView):
-    template_name = "post.html"
+class JobListView(generic.TemplateView):
+    template_name = "job_list.html"
+    
+class JobPostView(generic.TemplateView):
+    template_name = "job_post.html"
